@@ -1,0 +1,28 @@
+{
+    "name": "tasker",
+    "description": "Task Management Plugin For Chrome!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "cookies",
+      "tabs",
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+        "16": "/assets/todo16.png",
+        "32": "/assets/todo32.png",
+        "48": "/assets/todo48.png",
+        "128": "/assets/todo128.png"
+    },
+    "icons": {
+      "16": "/assets/todo16.png",
+      "32": "/assets/todo32.png",
+      "48": "/assets/todo48.png",
+      "128": "/assets/todo128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+
+      }
+  }
